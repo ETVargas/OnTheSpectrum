@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">On The Spectrum</string>
+    <!--<string name="fontSizes">[12,16,20,24,28,32,36]</string>-->
+
+    <string-array name="fontSizeAttempt">
+        <item>12</item>
+        <item>16</item>
+        <item>20</item>
+        <item>24</item>
+        <item>28</item>
+        <item>32</item>
+        <item>36</item>
+    </string-array>
+    <string name="curFontSize">12</string>
+    <string name="Settings">Settings</string>
+    <string name="Appearance">Appearance</string>
+    <string name="ProfLock">Profile Lock </string>
+    <string name="FontSize">Font Size </string>
+    <string name="AdjustColor">Adjust Color </string>
+    <string name="Locked">locked </string>
+    <string name="unlocked">unlocked </string>
+    <string name="ok">OK</string>
+
+
+
+
 </resources>
