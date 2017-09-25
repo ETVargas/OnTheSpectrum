@@ -28,7 +28,7 @@
         <activity android:name=".SettingsActivity" />
         <activity android:name=".CallActivity" />
         <activity android:name=".EmergencyListActivity" />
-        <activity android:name=".TestVoiceActivity" />
+        <activity android:name=".TestVoiceActivity"></activity>
     </application>
 
 </manifest>

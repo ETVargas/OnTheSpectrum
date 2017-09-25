@@ -8,19 +8,13 @@ import android.view.Menu;
 import android.view.View;
 import android.app.ActionBar;
 
-import java.util.ArrayList;
-
 public class HomeActivity extends AppCompatActivity {
-
-    ArrayList<ProfileElement> profile;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-
-        Intent intent = getIntent();
-        profile = intent.getParcelableArrayListExtra("Profile");
+        
         // Show the action bar and return arrow at the top of the screen
         // TODO: Fix this.
         // Potential fix: https://stackoverflow.com/questions/24596494/android-app-crashes-on-startup-in-emulator
@@ -35,7 +29,6 @@ public class HomeActivity extends AppCompatActivity {
 
     public void moveToProfileScreen(View v) {
         Intent intentProfile = new Intent(this, ProfileActivity.class);
-        intentProfile.putParcelableArrayListExtra("Profile", profile);
         startActivity(intentProfile);
     }
 
